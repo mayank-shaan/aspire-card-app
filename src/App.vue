@@ -165,7 +165,7 @@ watchEffect(() => {
     .nav-item {
       border-radius: var(--border-radius);
       color: rgba(255, 255, 255, 0.8);
-      padding: var(--spacing-md) 0px;
+      padding: var(--spacing-md) var(--spacing-xs);
       font-size: 16px;
 
       &.q-router-link--active {
