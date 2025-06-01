@@ -214,7 +214,6 @@ const handleActionClick = (actionId: CardAction) => {
   }
 }
 
-// Responsive optimizations using utility mixins
 @media (max-width: 480px) {
   .card-actions.mobile-layout {
     .actions-grid {
