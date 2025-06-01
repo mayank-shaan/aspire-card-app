@@ -1,0 +1,41 @@
+[
+  {
+    "id": "card-001",
+    "name": "Mayank Shaan Dhania",
+    "cardNumber": "5647 3411 2030 2020",
+    "maskedNumber": "•••• •••• •••• 2020",
+    "expirationDate": "08/30",
+    "cvv": "***",
+    "balance": 3000,
+    "isFrozen": false,
+    "isCardNumberVisible": false,
+    "cardType": "visa",
+    "createdAt": "2024-01-15T10:30:00.000Z"
+  },
+  {
+    "id": "card-002",
+    "name": "Sr. Developer",
+    "cardNumber": "4532 1234 5678 9012",
+    "maskedNumber": "•••• •••• •••• 9012",
+    "expirationDate": "09/35",
+    "cvv": "***",
+    "balance": 1500,
+    "isFrozen": true,
+    "isCardNumberVisible": false,
+    "cardType": "visa",
+    "createdAt": "2024-02-20T14:15:30.000Z"
+  },
+  {
+    "id": "company-card-001",
+    "name": "Company Expense Card",
+    "cardNumber": "4111 1111 1111 1111",
+    "maskedNumber": "•••• •••• •••• 1111",
+    "expirationDate": "12/26",
+    "cvv": "***",
+    "balance": 5000,
+    "isFrozen": false,
+    "isCardNumberVisible": false,
+    "cardType": "visa",
+    "createdAt": "2024-01-01T09:00:00.000Z"
+  }
+]

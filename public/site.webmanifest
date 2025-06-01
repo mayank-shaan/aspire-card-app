@@ -1,0 +1,18 @@
+{
+  "name": "Aspire Card Management",
+  "short_name": "Aspire Cards",
+  "description": "Modern card management application for banking and finance",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#01d167",
+  "background_color": "#FFFFFF",
+  "orientation": "portrait-primary"
+}

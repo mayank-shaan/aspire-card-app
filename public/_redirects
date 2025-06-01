@@ -1,0 +1,11 @@
+# Netlify redirects file for SPA routing
+# Handle client-side routing for Vue.js SPA
+
+# Redirect all routes to index.html for client-side routing (SPA)
+/*    /index.html   200
+
+# Optional: Handle API routes if you have them in the future
+# /api/*  https://your-api-endpoint.com/api/:splat  200
+
+# Optional: Handle specific redirects
+# /old-page  /new-page  301

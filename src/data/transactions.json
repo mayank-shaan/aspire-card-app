@@ -1,0 +1,86 @@
+[
+  {
+    "id": "txn-001",
+    "cardId": "card-001",
+    "merchant": "Hamleys",
+    "amount": 150,
+    "type": "credit",
+    "category": "refund",
+    "date": "2020-05-20T10:30:00.000Z",
+    "description": "Refund on debit card",
+    "iconType": "card",
+    "iconColor": "#3B82F6"
+  },
+  {
+    "id": "txn-002",
+    "cardId": "card-001",
+    "merchant": "Hamleys",
+    "amount": 150,
+    "type": "debit",
+    "category": "purchase",
+    "date": "2020-05-20T09:15:00.000Z",
+    "description": "Charged to debit card",
+    "iconType": "plane",
+    "iconColor": "#10B981"
+  },
+  {
+    "id": "txn-003",
+    "cardId": "card-001",
+    "merchant": "Hamleysss",
+    "amount": 150,
+    "type": "debit",
+    "category": "purchase",
+    "date": "2020-05-20T08:45:00.000Z",
+    "description": "Charged to debit card",
+    "iconType": "megaphone",
+    "iconColor": "#F59E0B"
+  },
+  {
+    "id": "txn-004",
+    "cardId": "card-001",
+    "merchant": "Singapore Airlines",
+    "amount": 320,
+    "type": "debit",
+    "category": "travel",
+    "date": "2020-05-19T14:22:00.000Z",
+    "description": "Flight booking",
+    "iconType": "plane",
+    "iconColor": "#EF4444"
+  },
+  {
+    "id": "txn-005",
+    "cardId": "card-002",
+    "merchant": "Grab",
+    "amount": 25,
+    "type": "debit",
+    "category": "transport",
+    "date": "2020-05-18T18:30:00.000Z",
+    "description": "Ride payment",
+    "iconType": "file-storage",
+    "iconColor": "#8B5CF6"
+  },
+  {
+    "id": "txn-006",
+    "cardId": "card-002",
+    "merchant": "Starbucks",
+    "amount": 8,
+    "type": "debit",
+    "category": "food",
+    "date": "2020-05-18T09:45:00.000Z",
+    "description": "Coffee purchase",
+    "iconType": "file-storage",
+    "iconColor": "#F59E0B"
+  },
+  {
+    "id": "txn-007",
+    "cardId": "company-card-001",
+    "merchant": "Office Supplies Co",
+    "amount": 250,
+    "type": "debit",
+    "category": "business",
+    "date": "2020-05-17T11:20:00.000Z",
+    "description": "Office equipment",
+    "iconType": "file-storage",
+    "iconColor": "#6B7280"
+  }
+]
