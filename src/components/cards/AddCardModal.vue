@@ -36,7 +36,7 @@
               autofocus
               maxlength="50"
               class="name-input"
-              @blur="validateName"
+              @update:modelValue="validateName"
               @input="clearNameError"
             >
               <template v-slot:prepend>
@@ -136,6 +136,7 @@ const resetForm = () => {
 };
 
 const validateName = () => {
+  console.log('update detected')
   const name = formData.value.name.trim();
   
   const requiredResult = validateRequired(name, 'Card holder name');
@@ -149,7 +150,7 @@ const validateName = () => {
     maxLengthResult,
     cardNameResult
   );
-  
+  console.log('combinedResult: ', combinedResult)
   errors.value.name = combinedResult.error || '';
 };
 
